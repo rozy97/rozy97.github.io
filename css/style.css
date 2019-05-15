@@ -1,0 +1,49 @@
+#email-on-medium {
+	display: none;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 859px) {
+	.w3-third {
+		/*float: none;*/
+		width: 40%;
+	}
+
+	.w3-twothird {
+		width: 60%;
+	}
+}
+
+@media (max-width: 720px) {
+	/*.w3-third {
+		float: none;
+		width: 45%;
+	}
+
+	.w3-twothird {
+		width: 55%;
+	}*/
+
+	#email {
+		display: none;
+	}
+
+	#email-on-medium {
+		display: inline-block;
+	}
+}
+
+@media (max-width: 601px) {
+	.w3-third {
+		float: none;
+		width: 100%;
+	}
+
+	.w3-twothird {
+		float: none;
+		width: 100%;
+	}
+}
+
