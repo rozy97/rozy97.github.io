@@ -16,7 +16,7 @@
 	}
 }
 
-@media (max-width: 730px) {
+@media (max-width: 730px) and (min-width: 598px) {
 	/*.w3-third {
 		float: none;
 		width: 45%;
